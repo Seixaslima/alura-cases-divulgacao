@@ -5,7 +5,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body style={{ textAlign: 'center' }}>{children}</body>
     </html>
   )
 }
